@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MethLab Studios</title>
+  <!-- Google Font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="logo">
+        <img src="logo.png" alt="MethLab Studios logo" />
+      </a>
+
+      <div class="menu-bar">
+        <nav class="nav-links">
+          <a href="#works">Projects</a>
+          <a href="#editor">Editor</a>
+          <a href="#services">Services</a>
+          <a href="#reviews">Reviews</a>
+        </nav>
+      </div>
+
+      <a
+        href="https://wa.me/923334489900"
+        class="cta-btn"
+        target="_blank"
+        rel="noopener"
+      >
+        Contact <span>→</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <div class="badge">
+        <div class="avatars">
+          <img src="avatar1.jpg" alt="" />
+          <img src="avatar2.jpg" alt="" />
+          <img src="avatar3.jpg" alt="" />
+        </div>
+        <span>Trusted by Creators World-Wide</span>
+      </div>
+
+      <h1>
+        Video Edits<br />
+        That <span class="accent">Stand Out!</span>
+      </h1>
+
+      <p>
+        Hook faster. Edit smarter. Grow your audience with
+        scroll-stopping YouTube videos.
+      </p>
+
+      <a
+        href="https://wa.me/923334489900"
+        class="hero-cta"
+        target="_blank"
+        rel="noopener"
+      >
+        Book a Call <span>→</span>
+      </a>
+
+      <div class="tagline">No pressure, just possibilities.</div>
+    </div>
+
+    <div class="hero-testimonials">
+      <div class="testimonial-card">
+        <div class="avatar"><img src="avatar1.jpg" alt="" /></div>
+        <div class="handle">KoshoReviews</div>
+        <div class="text">Solid, Strong, Compelling. Loving the vibe.</div>
+      </div>
+      <div class="testimonial-card">
+        <div class="avatar"><img src="avatar2.jpg" alt="" /></div>
+        <div class="handle">Trojan</div>
+        <div class="text">Was fully satisfied, too cooperative.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES LOOP -->
+  <section id="services" class="services-loop">
+    <div class="loop-wrapper">
+      <div class="loop">
+        <div class="loop-item">Video Editing</div>
+        <div class="loop-item">Motion Graphics</div>
+        <div class="loop-item">Explainer Videos</div>
+        <div class="loop-item">Marketing Videos</div>
+        <div class="loop-item">Documentary Editing</div>
+        <div class="loop-item">Podcast Editing</div>
+        <!-- duplicate for seamless scroll -->
+        <div class="loop-item">Video Editing</div>
+        <div class="loop-item">Motion Graphics</div>
+        <div class="loop-item">Explainer Videos</div>
+        <div class="loop-item">Marketing Videos</div>
+        <div class="loop-item">Documentary Editing</div>
+        <div class="loop-item">Podcast Editing</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECENT EDITS SECTION -->
+  <section id="works" class="works">
+    <div class="works-header">
+      <h2>
+        Our Recent Edits<br />
+        <span class="accent">in Action</span>
+      </h2>
+      <p>
+        From motion graphics to movie critics, here’s a glimpse of how we turn raw footage into binge-worthy content that resonates.
+      </p>
+    </div>
+
+    <div class="works-grid">
+      <!-- Wistia Video #1 -->
+      <style>
+        wistia-player[media-id='tjvzelo07k']:not(:defined) {
+          background: center / contain no-repeat
+            url('https://fast.wistia.com/embed/medias/tjvzelo07k/swatch');
+          display: block;
+          filter: blur(5px);
+          padding-top: 177.78%;
+        }
+      </style>
+      <wistia-player media-id="tjvzelo07k" aspect="0.5625"></wistia-player>
+
+      <!-- Wistia Video #2 -->
+      <style>
+        wistia-player[media-id='6dmdog1bwd']:not(:defined) {
+          background: center / contain no-repeat
+            url('https://fast.wistia.com/embed/medias/6dmdog1bwd/swatch');
+          display: block;
+          filter: blur(5px);
+          padding-top: 177.78%;
+        }
+      </style>
+      <wistia-player media-id="6dmdog1bwd" aspect="0.5625"></wistia-player>
+
+      <!-- Wistia Video #3 -->
+      <style>
+        wistia-player[media-id='i5fnjlgkro']:not(:defined) {
+          background: center / contain no-repeat
+            url('https://fast.wistia.com/embed/medias/i5fnjlgkro/swatch');
+          display: block;
+          filter: blur(5px);
+          padding-top: 177.78%;
+        }
+      </style>
+      <wistia-player media-id="i5fnjlgkro" aspect="0.5625"></wistia-player>
+
+      <!-- Wistia Video #4 -->
+      <style>
+        wistia-player[media-id='gtdd9jyrgm']:not(:defined) {
+          background: center / contain no-repeat
+            url('https://fast.wistia.com/embed/medias/gtdd9jyrgm/swatch');
+          display: block;
+          filter: blur(5px);
+          padding-top: 177.78%;
+        }
+      </style>
+      <wistia-player media-id="gtdd9jyrgm" aspect="0.5625"></wistia-player>
+    </div>
+  </section>
+
+  <!-- the tiny dot that follows your mouse -->
+  <div class="cursor-dot"></div>
+
+  <!-- Load Wistia player and your custom JS -->
+  <script src="https://fast.wistia.com/player.js" async></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
