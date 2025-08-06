@@ -4,16 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>MethLab Studios</title>
-  <!-- Google Font -->
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
     rel="stylesheet"
   />
-  <!-- Main stylesheet -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- NAVIGATION -->
   <header class="navbar">
     <div class="nav-container">
       <a href="#hero" class="logo">
@@ -39,15 +36,14 @@
       </a>
     </div>
   </header>
-
-  <!-- HERO SECTION -->
+<!--hero section-->
   <section id="hero" class="hero">
     <div class="hero-content">
       <div class="badge">
         <div class="avatars">
           <img src="avatar1.jpg" alt="" />
           <img src="avatar2.jpg" alt="" />
-          <img src="avatar3.jpg" alt="" />
+          <img src="avatar3.png" alt="" />
         </div>
         <span>Trusted by Creators World-Wide</span>
       </div>
@@ -88,7 +84,7 @@
     </div>
   </section>
 
-  <!-- SERVICES LOOP -->
+<!--skills loop-->
   <section id="services" class="services-loop">
     <div class="loop-wrapper">
       <div class="loop">
@@ -98,7 +94,12 @@
         <div class="loop-item">Marketing Videos</div>
         <div class="loop-item">Documentary Editing</div>
         <div class="loop-item">Podcast Editing</div>
-        <!-- duplicate for seamless scroll -->
+        <div class="loop-item">Video Editing</div>
+        <div class="loop-item">Motion Graphics</div>
+        <div class="loop-item">Explainer Videos</div>
+        <div class="loop-item">Marketing Videos</div>
+        <div class="loop-item">Documentary Editing</div>
+        <div class="loop-item">Podcast Editing</div>
         <div class="loop-item">Video Editing</div>
         <div class="loop-item">Motion Graphics</div>
         <div class="loop-item">Explainer Videos</div>
@@ -108,8 +109,7 @@
       </div>
     </div>
   </section>
-
-  <!-- RECENT EDITS SECTION -->
+<!--videos section-->
   <section id="works" class="works">
     <div class="works-header">
       <h2>
@@ -122,7 +122,7 @@
     </div>
 
     <div class="works-grid">
-      <!-- Wistia Video #1 -->
+      <!--video1 -->
       <style>
         wistia-player[media-id='tjvzelo07k']:not(:defined) {
           background: center / contain no-repeat
@@ -134,7 +134,7 @@
       </style>
       <wistia-player media-id="tjvzelo07k" aspect="0.5625"></wistia-player>
 
-      <!-- Wistia Video #2 -->
+      <!--video2 -->
       <style>
         wistia-player[media-id='6dmdog1bwd']:not(:defined) {
           background: center / contain no-repeat
@@ -146,7 +146,7 @@
       </style>
       <wistia-player media-id="6dmdog1bwd" aspect="0.5625"></wistia-player>
 
-      <!-- Wistia Video #3 -->
+      <!--video3 -->
       <style>
         wistia-player[media-id='i5fnjlgkro']:not(:defined) {
           background: center / contain no-repeat
@@ -158,7 +158,7 @@
       </style>
       <wistia-player media-id="i5fnjlgkro" aspect="0.5625"></wistia-player>
 
-      <!-- Wistia Video #4 -->
+      <!--video4 -->
       <style>
         wistia-player[media-id='gtdd9jyrgm']:not(:defined) {
           background: center / contain no-repeat
@@ -169,13 +169,22 @@
         }
       </style>
       <wistia-player media-id="gtdd9jyrgm" aspect="0.5625"></wistia-player>
+      <!--video5 -->
+      <style>
+        wistia-player[media-id='gsnwcsnwr5']:not(:defined) {
+          background: center / contain no-repeat
+            url('https://fast.wistia.com/embed/medias/gsnwcsnwr5/swatch');
+          display: block;
+          filter: blur(5px);
+          padding-top: 177.78%;
+        }
+      </style>
+      <wistia-player media-id="gsnwcsnwr5" aspect="0.5625"></wistia-player>
     </div>
   </section>
 
-  <!-- the tiny dot that follows your mouse -->
   <div class="cursor-dot"></div>
 
-  <!-- Load Wistia player and your custom JS -->
   <script src="https://fast.wistia.com/player.js" async></script>
   <script src="script.js" defer></script>
 </body>
